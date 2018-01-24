@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'NanumPen';
+    src: url('NanumFont_TTF_ALL/NanumPen.ttf');
+}
+@media(min-width:940px){
+  #green{
+    display:grid;
+    grid-template-columns:410px 1fr;
+  }
+  #green ol{
+    border-right:3px solid rgba(255,255,255,0.75);
+  }
+}
+@media(max-width:940px){
+  #green{
+    display:block;
+  }
+  #green ol{
+    border-bottom:3px solid rgba(255,255,255,0.75);
+    }
+}
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+#list1{
+  padding: 0px 0px 0px 20px;
+  font-size:25px;
+}
+
+h1{
+  text-align:center;
+  font-size: 80px;
+  color:rgba(255, 255, 255, 0.7);
+  font-weight:lighter;
+  margin-bottom:0px;
+  padding-bottom:50px;
+border-bottom:3px solid rgba(255,255,255,0.75);
+  font-family: 'Jeju Gothic', serif;
+
+}
+  #green ol{
+
+    margin-right:30px;
+  }
+ol {
+  padding-left:50px;
+  font-size:2rem;
+  color:rgba(255, 255, 255, 0.63);
+  font-weight:200;
+  color:rgba(255, 255, 255, 0.61);
+  text-decoration:none;
+  padding: 50px;
+font-family: 'Nanum Brush Script', serif;
+  margin:0px;
+}
+body{
+  background-image:url(노을.jpg);
+  background-size:cover;
+  font-family:'NanumPen';
+
+
+}
+p{
+color:rgba(255, 255, 255, 1);
+font-weight:300;
+font-size:40px;
+text-align:center;
+margin-top:50px;
+}
+li {
+  padding-bottom:2px;
+}
+a{
+  text-decoration:none;
+  color:inherit;
+}
+a:hover{
+  color:rgba(255, 255, 255, 1);
+  transition:all 0.5s;
+}
